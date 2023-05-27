@@ -30,7 +30,7 @@ rdkitmol = Chem.MolFromSmiles(smiles)
 mol2 = Chem.AddHs(rdkitmol)
 AllChem.EmbedMolecule(mol2, randomSeed=0xf00d)  #Random seed is for reproducibility
 AllChem.MMFFOptimizeMolecule(mol2)
-fname = savepath+"mol"+str(molcounter)+".mol"  #Note: Output is in .mol format, not .mol2
+fname = "output.mol"  #Note: Output is in .mol format, not .mol2
 print(Chem.MolToMolBlock(mol2), file=open(fname,'w+'))
 ```
 
