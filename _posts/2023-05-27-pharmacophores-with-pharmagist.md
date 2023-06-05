@@ -56,3 +56,19 @@ The important post-processing to be done here is to check how many molecules fro
 
 # Step 3: Pharmacophore-based screening of a library of generated molecules
 
+Based on the pharmacophore(s) identified in the previous step, we can screen any number of molecules and obtain the overlap score from PharmaGist. For that, it is better to split the library to be screened into batches of 500 molecules (multi-molecule files in .mol2 format). The main reasons for this are as follows:
+
+* PharmaGist does not follow the molecule ID or numbering defined by the user in the .mol2 file. It uses sequential numbering of molecules in a file for which a _mapping_ will be necessary between the PharmaGist numbering and user-defined molecule identifiers.
+* PharmaGist cannot process molecules which contain **boron atoms (B)** since it is not part of the atom type definition in the default config file. So it is best to eliminate molecules with B atoms as a pre-processing step, before batching the molecules.
+* Other errors in the middle of screening can also be debugged easily if the library is batched. Otherwise mapping the error to the molecule will be a tedious task (also easier to perform parallel calculations).
+
+Screening command
+```
+./pharmagist64.linux -c pharmagist.config -p ./Output_pharmacophores/1.pha -i -o ./Screening_results/ -d ./Batch_X.mol2
+```
+
+The output from the PharmaGist screening is composed of six scores and the first score can be considered as the overlap score between the chosen pharmacophore and the screened molecule. Sorting based on the overlap score and using a threshold to define “hits” from the screening was our strategy to identify the proportion of generated molecules with pharmacophore-level match to existing inhibitors. By combining screening results from multiple pharmacophores, we could see that 90% of generated molecules could match at least one of the pharmacophores, thereby validating our model.
+
+# Gallery
+
+
