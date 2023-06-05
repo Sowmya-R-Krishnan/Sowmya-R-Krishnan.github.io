@@ -71,8 +71,8 @@ The output from the PharmaGist screening is composed of six scores and the first
 
 # Gallery
 
-<img src="https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_1.png" alt=""/>
-<img src="https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_2.png" alt=""/>
-<img src="https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_pha_file.png" alt=""/>
-<img src="https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/4pha_image_v1.png" alt=""/>
-<img src="https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_output_PGist.png" alt=""/>
+![Img 1]("./_images/PGist_config_1.png")
+![Img 2]("./_images/PGist_config_2.png")
+![Img 3]("./_images/Sample_pha_file.png")
+![Img 4]("./_images/4pha_image_v1.png")
+![Img 5]("./_images/Sample_output_PGist.png")
