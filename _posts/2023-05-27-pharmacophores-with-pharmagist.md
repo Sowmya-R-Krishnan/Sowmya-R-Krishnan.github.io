@@ -71,12 +71,12 @@ The output from the PharmaGist screening is composed of six scores and the first
 
 # Gallery
 
-![Configuration for output from PharmaGist](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_1.png "Configuration for output from PharmaGist")
+![Configuration for output from PharmaGist](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_1.png)
 
-![Configuration for logs from PharmaGist](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_2.png "Configuration for logs from PharmaGist")
+![Configuration for logs from PharmaGist](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/PGist_config_2.png)
 
-![Sample .pha file after pharmacophore extraction](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_pha_file.png "Sample .pha file after pharmacophore extraction")
+![Sample .pha file after pharmacophore extraction](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_pha_file.png)
 
-![Pharmacophore visualization using PyMOL](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/4pha_image_v1.png "Pharmacophore visualization using PyMOL")
+![Pharmacophore visualization using PyMOL](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/4pha_image_v1.png)
 
-![Scores from PharmaGist screening of a library of molecules](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_output_PGist.png "Scores from PharmaGist screening of a library of molecules")
+![Scores from PharmaGist screening of a library of molecules](https://github.com/Sowmya-R-Krishnan/sowmya-r-krishnan.github.io/tree/main/_images/Sample_output_PGist.png)
