@@ -70,13 +70,8 @@ Screening command
 The output from the PharmaGist screening is composed of six scores and the first score can be considered as the overlap score between the chosen pharmacophore and the screened molecule. Sorting based on the overlap score and using a threshold to define “hits” from the screening was our strategy to identify the proportion of generated molecules with pharmacophore-level match to existing inhibitors. By combining screening results from multiple pharmacophores, we could see that 90% of generated molecules could match at least one of the pharmacophores, thereby validating our model.
 
 # Gallery
-
-![Img 1]("_posts/_images/PGist_config_1.png?raw=true")
-
-![Img 2]("_posts/_images/PGist_config_2.png?raw=true")
-
-![Img 3]("_posts/_images/Sample_pha_file.png?raw=true")
-
-![Img 4]("_posts/_images/4pha_image_v1.png?raw=true")
-
-![Img 5]("_images/Sample_output_PGist.png?raw=true")
+<img src="./_images/PGist_config_1.png?raw=true" alt="Img 1">
+<img src="/_images/PGist_config_2.png?raw=true" alt="Img 2">
+<img src="./_images/Sample_pha_file.png?raw=true" alt="Img 3">
+<img src="./_images/4pha_image_v1.png?raw=true" alt="Img 4">
+<img src="./_images/Sample_output_PGist.png?raw=true" alt="Img 5">
