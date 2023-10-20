@@ -71,7 +71,7 @@ The output from the PharmaGist screening is composed of six scores and the first
 
 # Gallery
 <img src="./_images/PGist_config_1.png?raw=true" alt="Img 1">
-<img src="/_images/PGist_config_2.png?raw=true" alt="Img 2">
+<img src="._images/PGist_config_2.png?raw=true" alt="Img 2">
 <img src="./_images/Sample_pha_file.png?raw=true" alt="Img 3">
 <img src="./_images/4pha_image_v1.png?raw=true" alt="Img 4">
 <img src="./_images/Sample_output_PGist.png?raw=true" alt="Img 5">
