@@ -3,4 +3,4 @@ title: Bioinfo Hub's homepage
 description: Bookmark this to keep an eye on my latest blogs!
 
 include:
-  - "_images"
+  - "_posts/_images"
